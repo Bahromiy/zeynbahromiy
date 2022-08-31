@@ -1,0 +1,121 @@
+.intro {
+    
+    padding: 25px 25px;
+    
+    
+}
+
+.intro__img {
+    width: 100%;
+    height: 600px;
+}
+
+.intro__content {
+   position: relative;
+   
+}
+
+.intro__title {
+    color: yellowgreen;
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.intro__description {
+    color: yellowgreen;
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+}
+
+@media only screen and (max-width: $tablet) {
+    .intro {
+    
+            padding: 25px 25px;
+    
+    
+        }
+    
+        .intro__img {
+            width: 100%;
+            height: 400px;
+        }
+    
+        .intro__content {
+            position: relative;
+    
+        }
+    
+        .intro__title {
+            color: rgb(91, 50, 205);
+            font-family: 'Aladin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            position: absolute;
+            top: 5px;
+            left: 25%;
+        }
+    
+        .intro__description {
+            color: rgb(104, 50, 205);
+            font-family: 'Aladin';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20px;
+            position: absolute;
+            bottom: 5px;
+            left: 25px;
+        }
+}
+
+@media only screen and (max-width: $mobile) {
+    .intro {
+    
+            padding: 25px 25px;
+    
+    
+        }
+    
+        .intro__img {
+            width: 100%;
+            height: 400px;
+        }
+    
+        .intro__content {
+            position: relative;
+    
+        }
+    
+        .intro__title {
+            color: rgb(179, 17, 57);
+            font-family: 'Aladin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+        }
+    
+        .intro__description {
+            color: rgb(205, 50, 50);
+            font-family: 'Aladin';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+        }
+    
+}
