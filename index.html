@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zeyn Bahromiy</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./html-bloks/reyting.html">
   </head>
   <body>
 
@@ -32,7 +33,7 @@
                 <a class="nav__link site-header__nav-link" href="#">Hobbi</a>
               </li>
               <li class="nav__list-item">
-                <a class="nav__link site-header__nav-link" href="#">Reyting</a>
+                <a class="nav__link site-header__nav-link" href="./reyting.html">Reyting</a>
               </li>
               <li class="nav__list-item">
                 <a class="nav__link site-header__nav-link" href="#">Bio</a>
@@ -55,24 +56,29 @@
         <div class="container">
             <div class="intro intro__content--wrapper">
                 <div class="intro__content">
-                    <img class="intro__img" src="./img/intro.jpg" alt="">
+                  
                     <p class="intro__title">Men o'qiyotgan kitob: <br> Kapitan Grant bollalari</p>
                     <p class="intro__description">
                        1864 yil 26 iyulda lord Eduard Glenarvanga tegishli yaxta matroslari ulkan bolg‘a baliqni tutib oldilar. <br> Och ko‘z baliq butunicha yutib yuborgan shisha ichidan ingliz, nemis va fransuz tillarida yozilgan hujjat chiqdi. <br> Dengiz suvi chirita boshlagan bu qog‘ozlardan aniqlanishicha, ikki yil oldin g‘oyib bo‘lgan «Britaniya» <br> kemasi halokatga uchragan. Ekipaj kapitani Grant va ikki dengizchi esa tirik qolgan...
                     </p>
                 </div>
+                 <img class="intro__img" src="./img/intro.jpg" alt=""> 
             </div>
         </div>
+        <!-- FINISH INTRO -->
+
+        <!-- COLLECTION -->
 
         <div class="container">
           <section class="collection">
             <h2 class="collection__title">Top-10 asarlar</h2>
             <ul class="collection__list">
-                <li class="collection__list-item">
-                  <img class="collection__list-img" src="./img/ibtido.jpg" alt="">
-                  <div class="collection__list-wrapper">
-                    <h3 class="collection__list-title">ibtido</h3>
-                    <p class="collection__muallif">
+                <li class="collection__list-item collection__list-item--1">
+                  <a href="./">
+                     <img class="collection__list-img" src="./img/ibtido.jpg" alt=""> 
+                     <div class="collection__list-wrapper">
+                      <h3 class="collection__list-title">ibtido</h3>
+                      <p class="collection__muallif">
                       Muallif: Den Braun
                     </p>
                     <p class="collection__list-description">
@@ -82,23 +88,36 @@
 
                       “Ibtido” - amerikalik muallif Den Braun qalamiga mansub triller asar bo‘lib, Robert Lengdon seriyasida “Inferno”dan keyingi beshinchi kitob hisoblanadi. Asar voqealari asosan Ispaniyada, qisman Dubay va Budapeshtda yuz beradi. 2018 yil Avgust oyida asar «New York Times»ning eng yaxshi sotilgan kitoblar ro‘yxatidan birinchi o‘rinni
                     </p>
+                     </div>
+                  </a>
+                </li>
+                <li class="collection__list-item collection__list-item--2">
+                  <a href="./reyting.html">
+
+                  </a>
+                  <div>
+              
+                  <div class="collection__list-wrapper collection__img--title"> 
+                    <img class="collection__list-img" src="./img/1984.webp" alt=""> 
+                    <div>  
+                      <h3 class="collection__list-title">
+                       1984
+                      </h3>
+                      <p class="collection__muallif">
+                       Muallif: Jorj Oruell
+                      </p>
+                    </div>
+                  </div>   
+                    <p class="collection__list-description">
+                      Jorj Oruellning ushbu romani ilk bora o‘zbek tiliga tarjima qilinib kitobxonlar eʼtiboriga yetkazilmoqda<span><a href="./reyting.html" class="collection__link">...</a></span>
+                    </p>
                   </div>
                 </li>
-                <li class="collection__list-item">
-                  <img class="collection__list-img" src="./img/1984.webp" alt="">
-                  <div class="collection__list-wrapper">
-                    <h3 class="collection__list-title">
-                      1984
-                    </h3>
-                    <p class="collection__muallif">
-                      Muallif: Jorj Oruell
-                    </p>
-                    <p class="collection__list-description">
-                      Jorj Oruellning ushbu romani ilk bora o‘zbek tiliga tarjima qilinib kitobxonlar eʼtiboriga yetkazilmoqda. “1984” romani "BBS talqinidagi eng yaxshi 200 ta kitob" ro‘yxatida sakkizinchi o‘rinni, Newsweek tomonidan insoniyat tarixidagi eng yaxshi kitoblar reytingida 2-o‘rinni egallagan. 2017 yilda ushbu kitob AQSHda eng ko‘p sotilgan kitob hisoblanadi. Asarning bunchalar shuhrat qozonishiga sabablarni kitobni o‘qish mobaynida bilib olishingiz mumkin.
-                    </p>
-                </li>
-                <li class="collection__list-item">
-                  <img class="collection__list-img" src="./img/raqamli.webp" alt="">
+                <li class="collection__list-item collection__list-item--3">
+                  <a href="./reyting.html">
+
+                  </a>
+                  <!-- <img class="collection__list-img" src="./img/raqamli.webp" alt=""> -->
                   <div class="collection__list-wrapper">
                     <h3 class="collection__list-title">
                       Raqamli qal'a
@@ -111,7 +130,10 @@
                     </p>
                 </li>
                 <li class="collection__list-item">
-                  <img class="collection__list-img" src="" alt="">
+                  <a href="./reyting.html">
+
+                  </a>
+                  <!-- <img class="collection__list-img" src="" alt=""> -->
                   <div class="collection__list-wrapper">
                     <h3 class="collection__list-title"></h3>
                     <p class="collection__muallif">
@@ -120,7 +142,10 @@
                     <p class="collection__list-description"></p>
                 </li>
                 <li class="collection__list-item">
-                  <img class="collection__list-img" src="" alt="">
+                  <a href="./reyting.html">
+
+                  </a>
+                  <!-- <img class="collection__list-img" src="" alt=""> -->
                   <div class="collection__list-wrapper">
                     <h3 class="collection__list-title"></h3>
                     <p class="collection__muallif">
@@ -129,7 +154,10 @@
                     <p class="collection__list-description"></p>
                 </li>
                 <li class="collection__list-item">
-                  <img class="collection__list-img" src="" alt="">
+                  <a href="./reyting.html">
+
+                  </a>
+                  <!-- <img class="collection__list-img" src="" alt=""> -->
                   <div class="collection__list-wrapper">
                     <h3 class="collection__list-title"></h3>
                     <p class="collection__muallif">
@@ -140,6 +168,8 @@
                 </ul>
           </section>
         </div>
+
+        <!-- FINISH COLLECTION -->
     </main>
   </body>
 </html>

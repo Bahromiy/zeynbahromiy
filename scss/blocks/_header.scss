@@ -110,9 +110,6 @@
 
     }
 
-    .site-header__burger:hover {
-        background-color: green;
-    }
 
     .site-header__burger:active {
                 background-color: red;
@@ -121,7 +118,8 @@
         .site-header__burger-inner {
             display: block;
             width: 30px;
-            height: 1px; 
+            height: 3px; 
+            border-radius: 2px;
             background-color: black; 
             margin: 2px;
             

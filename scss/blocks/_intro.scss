@@ -1,60 +1,78 @@
 .intro {
-    
-    padding: 25px 25px;
-    
+    width: 100%;
+    height: 600px;
+    // background-color: lime;
+    position: relative;
     
 }
 
 .intro__img {
-    width: 100%;
-    height: 600px;
-}
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0px;
+     z-index: -1;
+ }
 
 .intro__content {
-   position: relative;
+   
+   text-align: center;
+   
+//    padding: 15px 15px;
+//    background-image: url(../../img/intro.jpg);
+//    background-repeat: no-repeat;
+//    background-size: auto;
    
 }
 
 .intro__title {
-    color: yellowgreen;
+    color: rgb(14, 11, 20);
+    
     font-family: 'Aladin';
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    position: absolute;
-    top: 5px;
-    left: 25px;
+    z-index: 2;
+    
 }
 
 .intro__description {
-    color: yellowgreen;
+    color: rgb(14, 11, 20);
     font-family: 'Aladin';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
-    position: absolute;
-    bottom: 5px;
-    left: 25px;
+    
 }
 
 @media only screen and (max-width: $tablet) {
     .intro {
-    
-            padding: 25px 25px;
-    
-    
-        }
-    
-        .intro__img {
             width: 100%;
-            height: 400px;
-        }
-    
-        .intro__content {
+            height: 600px;
+            // background-color: lime;
             position: relative;
     
         }
-    
+
+        
+                .intro__img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0px;
+                    z-index: -1;
+                }
+        
+                .intro__content {
+        
+                    text-align: center;
+        
+                    //    padding: 15px 15px;
+                    //    background-image: url(../../img/intro.jpg);
+                    //    background-repeat: no-repeat;
+                    //    background-size: auto;
+        
+                }
         .intro__title {
             color: rgb(91, 50, 205);
             font-family: 'Aladin';
@@ -80,19 +98,30 @@
 
 @media only screen and (max-width: $mobile) {
     .intro {
-    
-            padding: 25px 25px;
-    
+            width: 100%;
+            height: 600px;
+            // background-color: lime;
+            position: relative;
     
         }
+    
     
         .intro__img {
             width: 100%;
-            height: 400px;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            z-index: -1;
         }
     
         .intro__content {
-            position: relative;
+    
+            text-align: center;
+    
+            //    padding: 15px 15px;
+            //    background-image: url(../../img/intro.jpg);
+            //    background-repeat: no-repeat;
+            //    background-size: auto;
     
         }
     
@@ -103,8 +132,8 @@
             font-weight: 400;
             font-size: 25px;
             position: absolute;
-            top: 25%;
-            left: 25%;
+            top: 15%;
+            left: 15%;
         }
     
         .intro__description {
