@@ -31,7 +31,7 @@
 
 .intro__title {
     color: black;
-    text-shadow: 3px 3px 3px yellow;
+    text-shadow: 0 0 3px rgb(159, 50, 209);
     font-family: 'Aladin';
     font-style: normal;
     font-weight: 400;
@@ -42,7 +42,7 @@
 
 .intro__description {
     color: black;
-    text-shadow: 3px 3px 3px yellow;
+    text-shadow: 0 0 2px yellow;
     font-family: 'Aladin';
     font-style: normal;
     font-weight: 400;
@@ -80,8 +80,8 @@
         
                 }
         .intro__title {
-            color: rgb(104, 50, 205);
-                text-shadow: 3px 3px 3px yellow;
+            color: black;
+                text-shadow: 0 0 3px rgb(159, 50, 209);
             font-family: 'Aladin';
             font-style: normal;
             font-weight: 400;
@@ -89,7 +89,8 @@
         }
     
         .intro__description {
-            color: rgb(104, 50, 205);
+            color: black;
+                text-shadow: 0 0 2px yellow;
             font-family: 'Aladin';
             font-style: normal;
             font-weight: 200;
@@ -129,8 +130,8 @@
         }
     
         .intro__title {
-            color: rgb(104, 50, 205);
-                text-shadow: 1.5px 1.5px 1.5px yellow;
+            color: black;
+                text-shadow: 0 0 3px rgb(159, 50, 209);
             font-family: 'Aladin';
             font-style: normal;
             font-weight: 400;
@@ -138,8 +139,8 @@
         }
     
         .intro__description {
-            color: rgb(104, 50, 205);
-                text-shadow: 1.5px 1.5px 1.5px yellow;
+            color: black;
+                text-shadow: 0 0 2px yellow;
             font-family: 'Aladin';
             font-style: normal;
             font-weight: 300;
