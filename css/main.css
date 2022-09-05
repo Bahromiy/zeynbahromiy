@@ -39,7 +39,7 @@ img {
 .container {
   max-width: 1310px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -207,7 +207,8 @@ img {
 }
 
 .intro__title {
-  color: rgb(14, 11, 20);
+  color: black;
+  text-shadow: 3px 3px 3px yellow;
   font-family: "Aladin";
   font-style: normal;
   font-weight: 400;
@@ -216,7 +217,8 @@ img {
 }
 
 .intro__description {
-  color: rgb(14, 11, 20);
+  color: black;
+  text-shadow: 3px 3px 3px yellow;
   font-family: "Aladin";
   font-style: normal;
   font-weight: 400;
@@ -241,7 +243,8 @@ img {
     padding: 5%;
   }
   .intro__title {
-    color: rgb(91, 50, 205);
+    color: rgb(104, 50, 205);
+    text-shadow: 3px 3px 3px yellow;
     font-family: "Aladin";
     font-style: normal;
     font-weight: 400;
@@ -273,14 +276,16 @@ img {
     padding: 5%;
   }
   .intro__title {
-    color: rgb(179, 17, 57);
+    color: red;
+    text-shadow: 3px 3px 3px yellow;
     font-family: "Aladin";
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
   }
   .intro__description {
-    color: rgb(205, 50, 50);
+    color: red;
+    text-shadow: 3px 3px 3px yellow;
     font-family: "Aladin";
     font-style: normal;
     font-weight: 300;
