@@ -3,6 +3,8 @@
     vertical-align: middle;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
+    padding: 25px 0;
 }
 
 .site-header__logo {
@@ -19,8 +21,12 @@
     margin-right: 10px;
 }
 
-.site-header__zeyn {
+.site__header__zeyn {
     // text-decoration: none;
+    color: darkblue;
+    font-family: 'Aladin';
+        font-style: normal;
+        font-weight: 400;
 }
 
 .site-header__burger {
@@ -119,7 +125,7 @@
             display: block;
             width: 30px;
             height: 3px; 
-            border-radius: 2px;
+            border-radius: 2px  ;
             background-color: black; 
             margin: 2px;
             
