@@ -22,22 +22,56 @@
 
 .collection__list-item {
     background-color: yellow;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 300px;
-    height: 400px;
+    height: 310px;
     margin-right: 30px;
     margin-top: 30px;
     padding: 10px;
 }
+
+.collection__list-item:hover {
+    border: 1px solid red;
+    
+}
+
 .collection__list-img {
     width: 100px;
     height: 100px;
+    margin-right: 30px;
 }
 
 .collection__img--title {
     display: flex;
     justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+    
 }
+
+.collection__list-title {
+    font-family: 'Amiko';
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
+}
+
+.collection__muallif {
+    font-family: 'Amiko';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+}
+
+.collection__list-description {
+    font-family: 'Amiko';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+
+}
+
 
 .collection__link {
     text-decoration: none;
@@ -91,12 +125,12 @@
 
 .collection__list-item {
     background-color: yellow;
-    border-radius: 10px;
-    width: 300px;
-    height: 400px;
-    margin-right: 30px;
-    margin-top: 30px;
-    padding: 10px;
+        border-radius: 20px;
+        width: 300px;
+        height: 310px;
+        margin-right: 30px;
+        margin-top: 30px;
+        padding: 10px;
 }
 
 .collection__list-img {
@@ -107,6 +141,17 @@
 .collection__img--title {
     display: flex;
     justify-content: space-around;
+    vertical-align: middle;
+    align-items: center;
+
+}
+
+.collection__list-title {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .collection__link {
@@ -166,13 +211,15 @@
     
         .collection__list-item {
             background-color: yellow;
-            border-radius: 10px;
-            width: 300px;
-            height: 400px;
-            margin-right: 30px;
-            margin-top: 30px;
-            padding: 10px;
+                border-radius: 20px;
+                width: 300px;
+                height: 310px;
+                margin-right: 30px;
+                margin-top: 30px;
+                padding: 10px;
         }
+
+
 
         .collection__list-item:active {
             border: 5px solid red;
@@ -183,11 +230,21 @@
             height: 100px;
         }
     
-        .collection__img--title {
-            display: flex;
-            justify-content: space-around;
-        }
-    
+                .collection__img--title {
+                    display: flex;
+                    justify-content: space-around;
+                    vertical-align: middle;
+                    align-items: center;
+        
+                }
+        
+                .collection__list-title {
+                    font-family: 'Amiko';
+                    font-style: normal;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
         .collection__link {
             text-decoration: none;
         }
