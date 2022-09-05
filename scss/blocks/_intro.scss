@@ -1,8 +1,9 @@
 .intro {
     width: 100%;
-    height: 600px;
+    height: 900px;
     // background-color: lime;
     position: relative;
+    
     
 }
 
@@ -10,13 +11,16 @@
      width: 100%;
      height: 100%;
      position: absolute;
+     border-radius: 10px;
      top: 0px;
      z-index: -1;
+     filter: opacity(15);
  }
 
 .intro__content {
    
    text-align: center;
+   padding: 5%;
    
 //    padding: 15px 15px;
 //    background-image: url(../../img/intro.jpg);
@@ -66,6 +70,7 @@
                 .intro__content {
         
                     text-align: center;
+                    padding: 5%;
         
                     //    padding: 15px 15px;
                     //    background-image: url(../../img/intro.jpg);
@@ -79,9 +84,6 @@
             font-style: normal;
             font-weight: 400;
             font-size: 50px;
-            position: absolute;
-            top: 5px;
-            left: 25%;
         }
     
         .intro__description {
@@ -90,16 +92,14 @@
             font-style: normal;
             font-weight: 200;
             font-size: 20px;
-            position: absolute;
-            bottom: 5px;
-            left: 25px;
+            
         }
 }
 
 @media only screen and (max-width: $mobile) {
     .intro {
             width: 100%;
-            height: 600px;
+            height: 400px;
             // background-color: lime;
             position: relative;
     
@@ -117,6 +117,7 @@
         .intro__content {
     
             text-align: center;
+            padding: 5%;
     
             //    padding: 15px 15px;
             //    background-image: url(../../img/intro.jpg);
@@ -131,9 +132,6 @@
             font-style: normal;
             font-weight: 400;
             font-size: 25px;
-            position: absolute;
-            top: 15%;
-            left: 15%;
         }
     
         .intro__description {
@@ -142,9 +140,6 @@
             font-style: normal;
             font-weight: 300;
             font-size: 15px;
-            position: absolute;
-            bottom: 25px;
-            left: 25px;
         }
     
 }

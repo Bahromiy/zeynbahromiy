@@ -1,0 +1,17 @@
+.hobbi_h1 {
+
+}
+
+.hobbi__list {
+    @include reset-list
+}
+
+
+.hobbi__list-img {
+    width: 100%;
+    height: auto;
+}
+
+.hobbi__list-title {
+    text-transform: uppercase;
+}
