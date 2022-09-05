@@ -276,16 +276,16 @@ img {
     padding: 5%;
   }
   .intro__title {
-    color: red;
-    text-shadow: 3px 3px 3px yellow;
+    color: rgb(104, 50, 205);
+    text-shadow: 1.5px 1.5px 1.5px yellow;
     font-family: "Aladin";
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
   }
   .intro__description {
-    color: red;
-    text-shadow: 3px 3px 3px yellow;
+    color: rgb(104, 50, 205);
+    text-shadow: 1.5px 1.5px 1.5px yellow;
     font-family: "Aladin";
     font-style: normal;
     font-weight: 300;
