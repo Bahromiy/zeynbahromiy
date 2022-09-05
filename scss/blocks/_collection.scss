@@ -159,10 +159,10 @@
     
         }
 
-        .collection__list:active {
-            background-color: red;
-                     border: 2px solid red;
-                 }
+        // .collection__list:active {
+        //     background-color: red;
+        //              border: 2px solid red;
+        //          }
     
         .collection__list-item {
             background-color: yellow;
@@ -172,6 +172,10 @@
             margin-right: 30px;
             margin-top: 30px;
             padding: 10px;
+        }
+
+        .collection__list-item:active {
+            border: 5px solid red;
         }
     
         .collection__list-img {

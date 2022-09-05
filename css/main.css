@@ -39,7 +39,7 @@ img {
 .container {
   max-width: 1310px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 8px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -438,10 +438,6 @@ img {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .collection__list:active {
-    background-color: red;
-    border: 2px solid red;
-  }
   .collection__list-item {
     background-color: yellow;
     border-radius: 10px;
@@ -450,6 +446,9 @@ img {
     margin-right: 30px;
     margin-top: 30px;
     padding: 10px;
+  }
+  .collection__list-item:active {
+    border: 5px solid red;
   }
   .collection__list-img {
     width: 100px;
