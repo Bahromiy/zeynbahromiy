@@ -59,6 +59,62 @@ img {
   width: 1px;
 }
 
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box:active ~ .box2 {
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  display: inline-block;
+}
+
+.box2 {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+@-webkit-keyframes animate {
+  from {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+  }
+  to {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(360deg);
+    left: 90%;
+  }
+}
+
+@keyframes animate {
+  from {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 0;
+  }
+  to {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform: rotate(360deg);
+    left: 90%;
+  }
+}
 .container {
   max-width: 1310px;
   margin: 0 auto;

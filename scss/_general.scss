@@ -26,3 +26,45 @@ img {
     white-space: nowrap;
     width: 1px;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+
+}
+
+.box:active~.box2 {
+    animation-name: animate;
+    animation-duration: 4s;
+    display: inline-block;
+
+
+}
+
+.box2 {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@keyframes animate {
+    from {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 0;
+    }
+
+    to {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        transform: rotate(360deg);
+        left: 90%;
+    }
+}
