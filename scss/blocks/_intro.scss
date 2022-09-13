@@ -1,4 +1,5 @@
 .intro {
+        margin-top: 70px;
     width: 100%;
     height: 900px;
     // background-color: lime;
@@ -52,6 +53,7 @@
 
 @media only screen and (max-width: $tablet) {
     .intro {
+            margin-top: 70px;
             width: 100%;
             height: 600px;
             // background-color: lime;
@@ -101,6 +103,7 @@
 
 @media only screen and (max-width: $mobile) {
     .intro {
+            margin-top: 70px;
             width: 100%;
             height: 400px;
             // background-color: lime;
