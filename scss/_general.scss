@@ -35,7 +35,7 @@ img {
 
 }
 
-.box:active~.box2 {
+.box:active ~ .box2 {
     animation-name: animate;
     animation-duration: 4s;
     display: inline-block;
@@ -43,6 +43,13 @@ img {
 
 }
 
+.box:hover ~.box2 {
+    animation-name: animate;
+    animation-duration: 4s;
+    display: inline-block;
+
+
+}
 .box2 {
     display: none;
     width: 100px;

@@ -21,6 +21,12 @@
     align-items: center;
 }
 
+.footer__logo--img {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
 .footer__list {
     display: flex;
     padding: 0;
@@ -67,6 +73,12 @@
             vertical-align: middle;
             align-items: center;
         }
+
+                .footer__logo--img {
+                    width: 100px;
+                    height: 100px;
+                    align-items: center;
+                }
     
         .footer__list {
             display: flex;
